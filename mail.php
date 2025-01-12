@@ -4,7 +4,7 @@
 		echo '<span class="notice">Error!</span>';
 		exit;
 	}
-	if( $_POST['token'] != 'FsWga4&@f6aw' ){
+	if( $_POST['token'] != '8478d7f529f63bf9435809eb0cb4d54b' ){
 		echo '<span class="notice">Error!</span>';
 		exit;
 	}
