@@ -4,7 +4,7 @@
 		echo '<span class="notice">Error!</span>';
 		exit;
 	}
-	if( $_POST['token'] != 'FsWga4&@f6aw' ){
+	if( $_POST['token'] != '8478d7f529f63bf9435809eb0cb4d54b' ){
 		echo '<span class="notice">Error!</span>';
 		exit;
 	}
@@ -21,7 +21,7 @@
 	
 	ob_start();
 	?>
-		Hi Aditya<br /><br />
+		Hi Uday<br /><br />
 		<?php echo ucfirst( $name ); ?>  has sent you a message via contact form on your website!
 		<br /><br />
 		
@@ -38,7 +38,7 @@
 	$body = ob_get_contents();
 	ob_end_clean();
 	
-	$to = 'adityagundecha1990@gmail.com';
+	$to = 'udaychopade27@gmail.com';
 
 	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 
