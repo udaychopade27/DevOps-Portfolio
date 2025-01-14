@@ -2,7 +2,7 @@
 
 | **Licence**  | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  |
 |---|---|
-| **Deploy status**  |  [![Netlify Status](https://api.netlify.com/api/v1/badges/d0268492-3c13-4c56-aa3d-6c40adadfd0f/deploy-status)](https://app.netlify.com/sites/adityagundecha/deploys) |
+| **Deploy status**  | [![Netlify Status](https://api.netlify.com/api/v1/badges/8a9fd95c-da0e-47a1-8998-580b083f6939/deploy-status)](https://app.netlify.com/sites/udaychopade27/deploys) |
 
 
 A website to showcase DevOps professional portfolio
