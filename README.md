@@ -32,7 +32,7 @@ Deployment is done via [Netlify](https://www.netlify.com/).
 
 ## Authors
 
-* **Aditya Gundecha** - *Initial work* 
+* **Uday Chopade** - *Initial work* 
 
 ## License
 
