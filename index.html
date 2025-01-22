@@ -58,6 +58,26 @@
     </script> -->
     <!--Google Analytics -->
 
+    <style>
+        .responsive-form-container {
+            position: relative;
+            width: 100%;
+            padding: 20px 0;
+        }
+        
+        .responsive-form-container iframe {
+            width: 100%;
+            border: none;
+            overflow: visible;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .responsive-form-container iframe {
+                min-height: 1000px; /* Increased height for mobile */
+            }
+        }
+    </style>
+
 </head>
 
 <body data-spy="scroll" data-target="#menu">
@@ -923,10 +943,19 @@ while continuously improving skills in cloud technologies, Docker, and Jenkins.<
                                         data-textAlign="center">Get in touch</h1>
                                     <div class="ce-title-line"></div>
                                     <div class="clearfix"></div>
-                                    <iframe data-textAlign="right"
-                                        src="https://docs.google.com/forms/d/e/1FAIpQLSculZg0fp3WSnnNeqBlYxTyP0SpJ1dsYfhfxG3v1jeNs1UYGg/viewform?embedded=true"
-                                        width="100%" height="750" scrolling="no" frameborder="0" marginheight="0"
-                                        marginwidth="0">Loading…</iframe>
+                                    <div class="responsive-form-container">
+                                        <iframe 
+                                            data-textAlign="right"
+                                            src="https://docs.google.com/forms/d/e/1FAIpQLSculZg0fp3WSnnNeqBlYxTyP0SpJ1dsYfhfxG3v1jeNs1UYGg/viewform?embedded=true"
+                                            width="100%" 
+                                            height="800"
+                                            style="max-width: 100%; min-height: 800px;"
+                                            frameborder="0" 
+                                            marginheight="0"
+                                            marginwidth="0"
+                                            allowfullscreen
+                                            >Loading…</iframe>
+                                    </div>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
